@@ -10,6 +10,7 @@ class MyDocument extends Document {
       <Html lang="en" className="theme-compiled">
         <Head>
           <style>{`:root{${cssVars}}`}</style>
+          <link rel="icon" href="/public/images/favicon.png" type="image/png">
         </Head>
         <body
           className={`antialiased text-lg bg-white dark:bg-gray-900 dark:text-white leading-base`}
