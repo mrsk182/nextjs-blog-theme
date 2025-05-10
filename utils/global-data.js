@@ -7,7 +7,7 @@ export const getGlobalData = () => {
     : 'xTeknoloji';
   const footerText = process.env.BLOG_FOOTER_TEXT
     ? decodeURI(process.env.BLOG_FOOTER_TEXT)
-    : 'Tüm Hakları Saklıdır.©';
+    : 'Tüm Hakları Saklıdır.2025©';
 
   return {
     name,
